@@ -57,6 +57,6 @@ text-align: var(--section-header-align);
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
-    text-align: var(--section-tagline-transform);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
