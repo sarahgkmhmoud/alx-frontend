@@ -24,14 +24,14 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black)
 }
-* {
-    box-sizing: border-box;
-}
+
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-
+* {
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
