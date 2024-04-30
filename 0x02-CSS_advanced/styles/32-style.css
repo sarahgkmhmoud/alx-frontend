@@ -323,9 +323,7 @@ margin: 0;
     overflow: hidden;
 }
 
-.card-work:hover .card-outer{
-    transform: scale(.95);
-}
+
 
 .card-work .card-image img{
     height: 30rem;
@@ -338,6 +336,9 @@ margin: 0;
     transform: scale(1.2);
     transition: var(–transition-duration) var(transition-cubic-bezier);
 }
+.card-work:hover .card-outer{
+    transform: scale(.95);
+}
 
 .card-work .card-inner {
     position: absolute;
@@ -349,6 +350,7 @@ margin: 0;
 }
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 
 .card-work .card-title {
