@@ -335,6 +335,16 @@ margin: 0;
     text-decoration: none;
     padding-top: 45%;
 }
+
+.card-work .card-title::after {
+    position: absolute;
+    position: 0;
+    content: "";
+
+}
+.card-work:hover .card-title {
+    opacity: 1;
+}
 .container{
     width: 960px;
     margin-left: auto;
