@@ -250,7 +250,7 @@ a:active{
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer{
-    transform: scale(.95);
+    transform: scale(0.95);
 }
 
 .card-work .card-inner {
