@@ -42,7 +42,7 @@
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
     --nav-item-margin:0 0 3rem 0;
-    --nav-item-link-hove: var(--color-primary);
+    --nav-item-link-hover: var(--color-primary);
 }
 
 
@@ -109,7 +109,7 @@ a:active{
 }
 
 .nav .nav-link:hover{
-    color: var(--nav-item-link-hove);
+    color: var(--nav-item-link-hover);
 
 }
 .visually-hidden {
