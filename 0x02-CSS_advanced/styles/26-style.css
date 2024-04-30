@@ -236,7 +236,7 @@ margin: 0;
     text-decoration: none;
 }
 
-.card-testimonial{
+.card-testimonial {
     text-align: center;
 }
 
@@ -246,7 +246,7 @@ margin: 0;
     height: 10rem;
 }
 
-.card-quote .card-testimonial cite{
+.card-testimonial .card-quote cite{
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
